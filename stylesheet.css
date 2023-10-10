@@ -1,0 +1,41 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+  
+.column-left {
+    flex: 40%;
+    float: left;
+    height: 500px;
+}
+.column-right {
+    flex: 60%;
+    float: left;
+    height: 500px;
+}
+
+.allign_text{
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.font{
+    font-family: "Libre Franklin";
+}
+
+#ex_row{
+    text-align: center; 
+    background-color: #A2AD59; 
+    padding: 0; 
+    margin: 0;
+    height: 150px;
+}
+
+.text_paragraph {
+    font-size: 160%;
+}
