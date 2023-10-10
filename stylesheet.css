@@ -61,10 +61,8 @@ a:hover {
     font-family: "Libre Franklin";
 }
 
-#ex_row{
-    text-align: center; 
-    background-color: #A2AD59; 
-    padding: 0; 
-    margin: 0;
-    height: 150px;
+#pfp{
+    height: 200px; 
+    width: 150px; 
+    object-fit: cover;
 }
